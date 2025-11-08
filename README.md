@@ -1,21 +1,30 @@
-Programa criado com intuito de ser um facilitador no gerenciamento de base de dados SQLite.
+# SQLite Database Management
 
-Com essa ferramenta é possível: 
+Programa criado com o intuito de ser um facilitador no gerenciamento de bases de dados **SQLite**.
 
-- Criar a base de dados SQLite;
-- Criar tabelas e campos e suas respectivas ligações (foreign keys e primary keys);
-- Executar comandos SQL para gerenciar registros da base de dados;
+Com essa ferramenta é possível:
 
-Tudo isso sem a necessidade de instalação do sqlite-tools na máquina, pois o próprio programa já possui todas as dependências necessárias.
+- Criar bases de dados SQLite  
+- Criar tabelas e campos com suas respectivas ligações (*primary keys* e *foreign keys*)  
+- Executar comandos SQL para gerenciar registros  
+- Tudo isso **sem a necessidade de instalar o sqlite-tools**, pois o programa já possui todas as dependências necessárias
 
------------------------------------------------------------------- // --------------------------------------------------------------------
+---
 
-Neste repositório, na pasta "Dist" possui um executável do programa pronto para uso, basta executar no ambiente.
+## Como usar
 
+Na pasta **`Dist`** deste repositório há um **executável pronto para uso**.  
+Basta executá-lo no ambiente desejado.
 
-Passo a passo para uso:
+### Passo a passo
 
-1 - Ao executar o programa pela primeira vez, clique em "Criar database";
-2 - Após criar o database, selecione o mesmo e clique no botão "Acessar";
-3 - Será redirecionado para a tela de login, por padrão ele cria um usuário "easy" e a senha "tec";
-4 - Após logado, basta utilizar o programa e suas funcionalidades.
+1. Ao executar o programa pela primeira vez, clique em **“Criar database”**  
+2. Após criar o database, selecione-o e clique em **“Acessar”**  
+3. Na tela de login, use o usuário padrão:  
+   - Usuário: `easy`  
+   - Senha: `tec`  
+4. Após logar, basta utilizar o programa normalmente
+
+---
+
+> Desenvolvido por **Anderson Tomaz**
